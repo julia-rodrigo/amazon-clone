@@ -32,13 +32,28 @@ ctrl j
 
 cd amazon-clone
 {
-    make sure youre in file directory 'amazon-clone'
+    NOTE: you need to rename your folder from "amazon-clone-with-firebase" 
+    to "amazon-clone" to run this
+
+    Running this code makes sure youre in file directory 'amazon-clone' 
+    and it contains all the files to run the app
 }
+
+npm i
+{
+    github doesnt take folders like node_modules 
+    but these can easily be downladed when you 
+
+    wait for a while until finished
+}
+
 
 npm start
 {
     in the terminal, run this code 
 }
+
+---------------NEXT STEP-------------
 
 node [+]
 {
@@ -50,15 +65,28 @@ cd amazon-clone
     make sure youre in file directory 'amazon-clone'
 }
 
+cd functions
+{
+    make sure youre in file directory 'functions'
+}
+
+npm i
+{
+    This will download missing files needed rto run app
+    wait for a while until finished
+}
+
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 {
     run this code to bypass security errors for running firebase
+    THIS ALWAYS HAPPENS WHEN YOU DO FIREBASE STUFF 
+    (if you make a mistake, dont forget to always run this)
 }
 
 firebase emulators:start
 {
     run this code and you should get a link to the 
-    back end system. Click on "http://localhost:4000/functions" 
+    back end system. Click on (Vew in Emulator UI) "http://localhost:4000/functions" 
     and you should see "watching..."
     and 2 links
 }
@@ -67,7 +95,7 @@ firebase emulators:start
 
 ----------INTERACTING WITH APP --------------------
 
-go back to the react port (localhost: 300)
+go back to the react port (localhost: 300) with the amazon clone running
 you can begin interacting with the app on your own !!! 
 or you could follow these steps to get the full guide
 
