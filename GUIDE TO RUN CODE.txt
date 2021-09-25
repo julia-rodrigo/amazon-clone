@@ -63,7 +63,9 @@ npm start
 
 node [+]
 {
-    YOU DONT RUN THIS
+    YOU DONT RUN THIS (its okay if you did, it didnt harm any files 
+    and nothing horrible happened)
+    
     open a new node on the right hand side of the terminal
 }
 
