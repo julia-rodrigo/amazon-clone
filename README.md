@@ -38,7 +38,7 @@ ctrl j
 
 cd amazon-clone
 {
-    NOTE: you need to rename your folder from "amazon-clone-with-firebase" 
+    you need to rename your folder from "amazon-clone-with-firebase" 
     to "amazon-clone" to run this
 
     Running this code makes sure youre in file directory 'amazon-clone' 
