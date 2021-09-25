@@ -181,5 +181,10 @@ Order Page
     When you sign out, these items wont show
 }
 
+back to Home page
+{
+    Click on the amazon logo to always return to the home page
+}
+
 thanks for your time =>
 
