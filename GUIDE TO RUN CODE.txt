@@ -1,4 +1,10 @@
 
+IMPORTANT: pls read the GUIDE TO RUN CODE.txt in the downloads
+
+
+Sonny amazon-clone https://www.youtube.com/watch?v=RDV3Z1KCBvo
+
+
 24/09/2021, 20:30
 
 DISCLAIMER:
@@ -23,23 +29,26 @@ page work
 
 xD thank you for this time
 
-----------RUN THIS APP------------------
+//----------RUN THIS APP------------------//
 
 ctrl j
+
 {
     open terminal using 
 }
 
 cd amazon-clone
-{
-    NOTE: you need to rename your folder from "amazon-clone-with-firebase" 
-    to "amazon-clone" to run this
 
+{
+    you need to rename your folder from "amazon-clone-with-firebase" 
+    to "amazon-clone" to run this
+    
     Running this code makes sure youre in file directory 'amazon-clone' 
     and it contains all the files to run the app
 }
 
 npm i
+
 {
     github doesnt take folders like node_modules 
     but these can easily be downladed when you 
@@ -49,14 +58,16 @@ npm i
 
 
 npm start
+
 {
     in the terminal, run this code 
 }
 
----------------NEXT STEP-------------
+//---------------NEXT STEP-------------//
 
 node [+]
 {
+    YOU DONT RUN THIS
     open a new node on the right hand side of the terminal
 }
 
@@ -141,3 +152,4 @@ Order Page
 }
 
 thanks for your time =)
+
