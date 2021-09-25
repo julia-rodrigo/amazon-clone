@@ -29,6 +29,8 @@ page work
 
 xD thank you for this time
 
+
+
 //----------RUN THIS APP------------------//
 
 ctrl j
@@ -57,6 +59,10 @@ npm i
 npm start
 {
     in the terminal, run this code 
+    this will open a browser page called 'localhost:3000' (React App)
+    
+    you can see the app running in the browser. Have a look
+    BUT ITS NOT FULLY WORKING so go to NEXT STEP
 }
 
 //---------------NEXT STEP-------------//
@@ -67,6 +73,7 @@ node [+]
     and nothing horrible happened)
     
     open a new node on the right hand side of the terminal
+    wait for a bit
 }
 
 cd amazon-clone
@@ -81,7 +88,7 @@ cd functions
 
 npm i
 {
-    This will download missing files needed rto run app
+    This will download missing files needed to run app
     wait for a while until finished
 }
 
@@ -95,16 +102,40 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 firebase emulators:start
 {
     run this code and you should get a link to the 
-    back end system. Click on (Vew in Emulator UI) "http://localhost:4000/functions" 
-    and you should see "watching..."
-    and 2 links
+    back end system. 
+    
+    When its finished, SCROLL UP a bit and you'll 
+    see a table with one working link
+    
+    Click on (Vew in Emulator UI) "http://localhost:4000/functions" 
+    OR it might be "http://localhost:4002/functions" 
+    if something else is occupying localhost:4000.
+    
+    and you should see "watching..." and "functions initialize"
+    these are the back-end history running. Have a look at 
+    this page or the terminal when you 'buy' something in the app
 }
 
 ------------END OF RUNNING APP---------
+----------------------------------------------------------------------------------------------------
 
+some stuff not important: 
+
+ctrl c 
+{
+      run this in any of the terminals to stop the 
+      (localhost:3000)front-end or (localhost:4000)back-end
+      
+      otherwise you might ended up running on another port if occupied
+      (ie. localhost:3002 or localhost:4002) 
+      
+      it wont affect your experience tho
+}
+
+------------------------------------------------------------------------------------------------------------
 ----------INTERACTING WITH APP --------------------
 
-go back to the react port (localhost: 300) with the amazon clone running
+go back to the 'React App' port (localhost:3000) with the amazon clone running
 you can begin interacting with the app on your own !!! 
 or you could follow these steps to get the full guide
 
@@ -141,13 +172,14 @@ payment page
     card number must be:
     4242 4242 4242 4242         04 / 24     242     42424
 
-    Bye now
+    [Bye now]. This is a dummy payment dont worry. Buy as much spookie dookies as you want
 }
 
 Order Page
 {
     this page will have all your previously bought items
+    When you sign out, these items wont show
 }
 
-thanks for your time =)
+thanks for your time =>
 
