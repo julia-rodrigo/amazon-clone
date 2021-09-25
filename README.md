@@ -29,7 +29,7 @@ page work
 
 xD thank you for this time
 
-----------RUN THIS APP------------------
+//----------RUN THIS APP------------------//
 
 ctrl j
 {
@@ -59,7 +59,7 @@ npm start
     in the terminal, run this code 
 }
 
----------------NEXT STEP-------------
+//---------------NEXT STEP-------------//
 
 node [+]
 {
