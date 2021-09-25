@@ -2,74 +2,147 @@
 IMPORTANT: pls read the GUIDE TO RUN CODE.txt in the downloads
 Sonny amazon-clone https://www.youtube.com/watch?v=RDV3Z1KCBvo
 
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+24/09/2021, 20:30
 
-## Available Scripts
+DISCLAIMER:
+https://www.youtube.com/watch?v=RDV3Z1KCBvo
+this is the link to the tutorial i followed on 
+how to make this code. The code belongs to these clever people.
+The changes in the code ive implimented are in firebase coding 
+since the firebase version seemed to have been updated to new 
+ways of implimenting code. Thank you
 
-In the project directory, you can run:
+NOTES PLS READ:
+the link "https://again-d5564.web.app" is the firebase deployed link.
+But i have not made my firebase account in blaze/spark mode
+therefore the payment and order page wont work as it should since
+there isnt a back-end connection (emulator running)
 
-### `npm start`
+if you decide to look at this code,
+this is the guide for running this code 
+and starting the back-end emulator 
+so you can look at the orders and payment 
+page work
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+xD thank you for this time
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+----------RUN THIS APP------------------
 
-### `npm test`
+ctrl j
+{
+    open terminal using 
+}
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+cd amazon-clone
+{
+    NOTE: you need to rename your folder from "amazon-clone-with-firebase" 
+    to "amazon-clone" to run this
 
-### `npm run build`
+    Running this code makes sure youre in file directory 'amazon-clone' 
+    and it contains all the files to run the app
+}
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm i
+{
+    github doesnt take folders like node_modules 
+    but these can easily be downladed when you 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    wait for a while until finished
+}
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+npm start
+{
+    in the terminal, run this code 
+}
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---------------NEXT STEP-------------
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+node [+]
+{
+    open a new node on the right hand side of the terminal
+}
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+cd amazon-clone
+{
+    make sure youre in file directory 'amazon-clone'
+}
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+cd functions
+{
+    make sure youre in file directory 'functions'
+}
 
-## Learn More
+npm i
+{
+    This will download missing files needed rto run app
+    wait for a while until finished
+}
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+{
+    run this code to bypass security errors for running firebase
+    THIS ALWAYS HAPPENS WHEN YOU DO FIREBASE STUFF 
+    (if you make a mistake, dont forget to always run this)
+}
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+firebase emulators:start
+{
+    run this code and you should get a link to the 
+    back end system. Click on (Vew in Emulator UI) "http://localhost:4000/functions" 
+    and you should see "watching..."
+    and 2 links
+}
 
-### Code Splitting
+------------END OF RUNNING APP---------
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+----------INTERACTING WITH APP --------------------
 
-### Analyzing the Bundle Size
+go back to the react port (localhost: 300) with the amazon clone running
+you can begin interacting with the app on your own !!! 
+or you could follow these steps to get the full guide
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Home page
+{
+    you can start signingIn by clicking on "Sign In"
+}
 
-### Making a Progressive Web App
+login page
+{
+    enter any dummy email with format "mmm@yyy.aaa"
+    or 
+    
+    you can use an existing email here "mayakuro@starlight.lol"
+    password: "maclaudine"
+    
+    to Sign in
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    save your email as you wish
+}
 
-### Advanced Configuration
+Home page
+{
+    add items to basket. Hit the basket icon on the right corner
+}
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+checkout page
+{
+    click "Proceed to Checkout"
+}
 
-### Deployment
+payment page
+{
+    card number must be:
+    4242 4242 4242 4242         04 / 24     242     42424
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+    Bye now
+}
 
-### `npm run build` fails to minify
+Order Page
+{
+    this page will have all your previously bought items
+}
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# amazon-clone" 
+thanks for your time =)
+
