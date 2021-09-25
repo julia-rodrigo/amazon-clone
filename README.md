@@ -32,20 +32,23 @@ xD thank you for this time
 //----------RUN THIS APP------------------//
 
 ctrl j
+
 {
     open terminal using 
 }
 
 cd amazon-clone
+
 {
     you need to rename your folder from "amazon-clone-with-firebase" 
     to "amazon-clone" to run this
-
+    
     Running this code makes sure youre in file directory 'amazon-clone' 
     and it contains all the files to run the app
 }
 
 npm i
+
 {
     github doesnt take folders like node_modules 
     but these can easily be downladed when you 
@@ -55,6 +58,7 @@ npm i
 
 
 npm start
+
 {
     in the terminal, run this code 
 }
@@ -63,6 +67,7 @@ npm start
 
 node [+]
 {
+    YOU DONT RUN THIS
     open a new node on the right hand side of the terminal
 }
 
