@@ -1,0 +1,115 @@
+
+24/09/2021, 20:30
+
+DISCLAIMER:
+https://www.youtube.com/watch?v=RDV3Z1KCBvo
+this is the link to the tutorial i followed on 
+how to make this code. The code belongs to these clever people.
+The changes in the code ive implimented are in firebase coding 
+since the firebase version seemed to have been updated to new 
+ways of implimenting code. Thank you
+
+NOTES PLS READ:
+the link "https://again-d5564.web.app" is the firebase deployed link.
+But i have not made my firebase account in blaze/spark mode
+therefore the payment and order page wont work as it should since
+there isnt a back-end connection (emulator running)
+
+if you decide to look at this code,
+this is the guide for running this code 
+and starting the back-end emulator 
+so you can look at the orders and payment 
+page work
+
+xD thank you for this time
+
+----------RUN THIS APP------------------
+
+ctrl j
+{
+    open terminal using 
+}
+
+cd amazon-clone
+{
+    make sure youre in file directory 'amazon-clone'
+}
+
+npm start
+{
+    in the terminal, run this code 
+}
+
+node [+]
+{
+    open a new node on the right hand side of the terminal
+}
+
+cd amazon-clone
+{
+    make sure youre in file directory 'amazon-clone'
+}
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+{
+    run this code to bypass security errors for running firebase
+}
+
+firebase emulators:start
+{
+    run this code and you should get a link to the 
+    back end system. Click on "http://localhost:4000/functions" 
+    and you should see "watching..."
+    and 2 links
+}
+
+------------END OF RUNNING APP---------
+
+----------INTERACTING WITH APP --------------------
+
+go back to the react port (localhost: 300)
+you can begin interacting with the app on your own !!! 
+or you could follow these steps to get the full guide
+
+Home page
+{
+    you can start signingIn by clicking on "Sign In"
+}
+
+login page
+{
+    enter any dummy email with format "mmm@yyy.aaa"
+    or 
+    
+    you can use an existing email here "mayakuro@starlight.lol"
+    password: "maclaudine"
+    
+    to Sign in
+
+    save your email as you wish
+}
+
+Home page
+{
+    add items to basket. Hit the basket icon on the right corner
+}
+
+checkout page
+{
+    click "Proceed to Checkout"
+}
+
+payment page
+{
+    card number must be:
+    4242 4242 4242 4242         04 / 24     242     42424
+
+    Bye now
+}
+
+Order Page
+{
+    this page will have all your previously bought items
+}
+
+thanks for your time =)

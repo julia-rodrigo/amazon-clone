@@ -1,0 +1,104 @@
+npx create-react-app amazon-clone
+go to "firebase.com" and add project - happy hacking
+cd amazon-clone
+npm start
+new terminal
+cd amazon-clone
+npm install -g firebase-tools
+
+npm i @material-ui/core
+npm install @mui/material@next @emotion/react @emotion/styled
+
+npm i @material-ui/icons
+npm install @mui/icons-material
+
+npm i react-router-dom
+npm i react-currency-format
+
+npm i firebase
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+firebase login
+firebase init
+npm run build
+
+firebase deploy
+
+npm install @stripe/stripe-js
+npm i @stripe/react-stripe-js
+
+/*
+pk_test_51JcuykHnG9pa08arBBkj5lYAgotVVz1akoeI2cQNSsBg32kBidkb7rpqAKK3MqjgX4F2NY2bcYkOo9HQF5ZKYe5U00yf8WqQ0W
+*/
+
+npm i axios
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+firebase init
+{
+    fuction with cloud
+    javascript
+    use eslint
+}
+
+folders:
+'src' is the app(front end)
+'function' is the full back-end (cloud functions)
+
+cd amazon-clone/functions
+
+----------NOW IN THE FUNCTIONS FOLDER--------------
+
+cd amazon-clone/functions
+
+cd functions
+{
+    npm i express // kinda node.js lol
+    npm i cors
+}
+
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+// get secret key from stripe.com
+
+npm install @stripe/stripe-js
+npm i @stripe/react-stripe-js
+
+// emulate 'index.js' to see if it works
+firebase emulators:start
+
+/*
+Sometimes Reducer.js doesn't work. 
+change to 'reducer.js' and then ctrl z
+hit 'always update Reducer'
+refresh the local host page
+*/
+
+card number must be:
+4242 4242 4242 4242         04 / 24     242     42424
+
+'pay now'
+
+ALWAYS RUN firebase emulators:start 
+
+
+
+-------------BAK IN SRC-------
+
+npm i moment
+
+------------DEPLOY------------
+
+ctrl j for terminal
+ctrl c to stop emulator
+
+firebase deploy --only functions
+{
+    only deply the back-end
+    BUT FIRST upgrade to BLAZE in firebase
+}
+
+firebase init
+npm run build
+firebase deploy --only hosting
