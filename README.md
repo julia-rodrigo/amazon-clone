@@ -2,8 +2,6 @@
 IMPORTANT: pls read the GUIDE TO RUN CODE.txt in the downloads
 Sonny amazon-clone https://www.youtube.com/watch?v=RDV3Z1KCBvo
 
-DOWNLOAD WORKING ZIP: https://www.filefactory.com/file/7hyygj646wsy/amazon-clone.zip
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
