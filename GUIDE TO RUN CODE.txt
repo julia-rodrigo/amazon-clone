@@ -7,6 +7,9 @@ Sonny amazon-clone https://www.youtube.com/watch?v=RDV3Z1KCBvo
 
 24/09/2021, 20:30
 
+This code runs on Visual Studio Code and the 
+instructions are set for this platform only
+
 DISCLAIMER:
 https://www.youtube.com/watch?v=RDV3Z1KCBvo
 this is the link to the tutorial i followed on 
